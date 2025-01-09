@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import picture from '../components/picture3.jpeg';
+import picture from '../components/Picture2.jpeg';
 const Home = () => {
   const skills = [
     'Deeplearning',
