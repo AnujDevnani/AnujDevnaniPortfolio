@@ -39,7 +39,7 @@ const Home = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="components/Picture.jpeg"
+              src="src/components/Picture.jpeg"
               alt="Professional headshot"
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto shadow-lg"
             />
