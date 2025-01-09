@@ -12,6 +12,7 @@ const Home = () => {
     'Node.js',
     'GitHub',
     'Neural Networks',
+    "GAN's"
   ];
 
   return (
