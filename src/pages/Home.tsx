@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import picture from '../components/Picture.jpeg';
 const Home = () => {
   const skills = [
     'Deeplearning',
@@ -39,8 +39,8 @@ const Home = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="/Users/anuj/Documents/GitHub/AnujDevnaniPortfolio/src/components/Picture.jpeg"
-              alt="Professional headshot"
+              src={picture}
+              alt="Picture from components"
               className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto shadow-lg"
             />
           </div>
