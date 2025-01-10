@@ -26,7 +26,7 @@ const Home = () => {
               Data Engineer & software Devloper
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              As a data scientist, I analyze data to uncover patterns, trends, and insights that solve problems or support decision-making. I collect, clean, and organize data, then use tools like statistical models and visualizations to make the data understandable and actionable.
+              As a Data Engineer, I analyze data to uncover patterns, trends, and insights that solve problems or support decision-making. I collect, clean, and organize data, then use tools like statistical models and visualizations to make the data understandable and actionable.
 
               As a machine learning engineer, I build systems that let computers learn from data and make predictions or decisions on their own. I design, train, and optimize algorithms to handle tasks like recognizing images, predicting outcomes, or automating repetitive processes.
             </p>
