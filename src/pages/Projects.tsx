@@ -8,6 +8,36 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: '1',
+      title: 'Generative Adversarial Neural Network',
+      description: 'A project leveraging Generative Adversarial Networks (GANs) to design and generate realistic fashion prototypes. This system uses AI to create innovative and diverse clothing designs, pushing the boundaries of creativity in the fashion industry.',
+      category: 'Ds-ml',
+      liveUrl: 'https://github.com/AnujDevnani',
+      technologies: ["Python","TensorFlow","Keras","NumPy","Matplotlib","Pandas"],
+      features: [
+        "Realistic fashion prototype generation using GANs.",
+        "Customizable design inputs for targeted outputs.",
+        "AI-driven enhancement of creative possibilities in fashion.",
+        "Visualization of generated designs in high resolution.",
+        "Improved training stability using advanced GAN techniques like Wasserstein loss."
+      ]
+    },
+    {
+      id: '2',
+      title: 'Deep CNN Image Classifier: Happy/Sad',
+      description: 'A deep learning project that utilizes Convolutional Neural Networks (CNNs) to classify facial expressions as either happy or sad. This model analyzes facial features and provides accurate emotion detection using advanced image processing techniques.',
+      category: 'Ds-ml',
+      technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "NumPy", "Matplotlib"],
+      features: [
+        "Binary classification of facial expressions into happy and sad categories.",
+        "Deep CNN architecture for high accuracy in emotion detection.",
+        "Real-time prediction support using webcam or live video feeds.",
+        "Preprocessing pipeline including resizing, grayscale conversion, and normalization.",
+        "Visualization of training metrics (accuracy and loss) using Matplotlib.",
+        "Efficient model training using GPU acceleration."
+      ]
+    },
+    {
+      id: '3',
       title: 'AI music generator',
       description: 'A full-stack e-commerce solution with real-time inventory management and secure payment processing.',
       category: 'Fullstack AI',
@@ -20,22 +50,23 @@ const Projects = () => {
       ]
     },
     {
-      id: '2',
-      title: 'Credit limit optimizer',
-      description: 'Mobile application that uses machine learning to predict an appropriate credit limit tailored to individual customers.',
-      category: 'ml',
-      technologies: ['Scikit-learn', 'Pandas', 'Python', 'Matplotlib', 'Numpy'],
+      id: '4',
+      title: 'AI music generator',
+      description: 'A full-stack e-commerce solution with real-time inventory management and secure payment processing.',
+      category: 'Fullstack AI',
+      liveUrl: 'https://music-generative-ai.netlify.app',
+      technologies: ['React', 'Next.js', 'Replicate API', 'Tailwind'],
       features: [
-        'Predict an appropriate credit limit tailored to individual customers.',
-        'Minimize default risk by analyzing patterns in historical data.',
-        'Provide actionable insights to optimize credit allocation strategies.',
+        'It is a wild ride of creativity where users can input their prompts and watch as the generator churns out unique music compositions.',
+        'generative ai',
+        'Gernerate music using prompts',
       ]
     },
     {
-      id: '3',
+      id: '5',
       title: 'Stock Price Predictor',
-      description: 'Developed a machine learning model to predict stock prices with high accuracy..',
-      category: 'ml',
+      description: 'Developed a machine learning model to predict stock prices with high accuracy.',
+      category: 'Ds-ml',
       technologies: ['Scikit-learn', 'Pandas', 'Python', 'Matplotlib', 'Numpy', 'TensorFlow/keras', 'Seaborn'],
       features: [
         'Analyze historical market data to identify trends and patterns.',
@@ -44,7 +75,7 @@ const Projects = () => {
       ]
     },
     {
-      id: '4',
+      id: '6',
       title: 'AI QRcode generator',
       description: 'Developed a full-stack web application using with Next.js serving a Replicate API with React as the frontend.',
       category: 'Fullstack AI',
@@ -61,8 +92,7 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', name: 'All Projects' },
-    { id: 'ml', name: 'Machine Learning' },
-    { id: 'DS', name: 'Data Science' },
+    { id: 'Ds-ml', name: 'Data Science & Machine Learning' },
     { id: 'Fullstack AI', name: 'Fullstack AI' },
     { id: 'web', name: 'Web Apps' }
     
