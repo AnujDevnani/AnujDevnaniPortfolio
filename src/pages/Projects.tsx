@@ -38,34 +38,42 @@ const Projects = () => {
     },
     {
       id: '3',
-      title: 'AI music generator',
-      description: 'A full-stack e-commerce solution with real-time inventory management and secure payment processing.',
+      title: 'AI Music Generator Using Replicate API',
+      description: 'A cutting-edge project that uses the Replicate API to generate unique and customizable music tracks with AI. This tool allows users to explore the creative potential of AI in music composition, catering to diverse genres and styles.',
       category: 'Fullstack AI',
       liveUrl: 'https://music-generative-ai.netlify.app',
-      technologies: ['React', 'Next.js', 'Replicate API', 'Tailwind'],
+      technologies: ["Python", "Replicate API", "Flask/Django (for backend integration)", "JavaScript (for frontend)", "HTML/CSS",],
       features: [
-        'It is a wild ride of creativity where users can input their prompts and watch as the generator churns out unique music compositions.',
-        'generative ai',
-        'Gernerate music using prompts',
+        "Generate AI-composed music in various genres and styles.",
+        "Customizable parameters for tempo, mood, and instruments.",
+        "Integration with Replicate API for seamless AI model interaction.",
+        "Real-time generation and playback of music tracks.",
+        "Downloadable output in multiple formats (e.g., MP3, WAV).",
+        "User-friendly interface for inputting music preferences.",
+        "Scalable backend for handling multiple user requests efficiently."
       ]
     },
     {
       id: '4',
-      title: 'AI music generator',
-      description: 'A full-stack e-commerce solution with real-time inventory management and secure payment processing.',
+      title: 'Credit Limit Optimizer',
+      description: 'A machine learning-driven tool designed to optimize credit limits for customers by analyzing spending patterns, risk profiles, and financial history. It aims to balance credit risk and customer satisfaction while boosting financial institution profitability.',
       category: 'Fullstack AI',
       liveUrl: 'https://music-generative-ai.netlify.app',
-      technologies: ['React', 'Next.js', 'Replicate API', 'Tailwind'],
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow/Keras", "Matplotlib/Seaborn",],
       features: [
-        'It is a wild ride of creativity where users can input their prompts and watch as the generator churns out unique music compositions.',
-        'generative ai',
-        'Gernerate music using prompts',
+        "Customer segmentation based on credit behavior and financial history.",
+        "Machine learning models to predict optimal credit limits.",
+        "Risk assessment algorithms to minimize default rates.",
+        "Real-time analytics dashboard for credit performance monitoring.",
+        "Integration with existing banking systems for seamless implementation.",
+        "Customizable thresholds for adjusting risk tolerance levels.",
+        "Data visualization for insights into credit utilization and optimization."
       ]
     },
     {
       id: '5',
       title: 'Stock Price Predictor',
-      description: 'Developed a machine learning model to predict stock prices with high accuracy.',
+      description: 'A machine learning-based project designed to predict future stock prices using historical data and advanced algorithms. This system helps traders and investors make informed decisions by analyzing market trends and patterns.',
       category: 'Ds-ml',
       technologies: ['Scikit-learn', 'Pandas', 'Python', 'Matplotlib', 'Numpy', 'TensorFlow/keras', 'Seaborn'],
       features: [
