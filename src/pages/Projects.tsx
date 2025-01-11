@@ -77,21 +77,28 @@ const Projects = () => {
       category: 'Ds-ml',
       technologies: ['Scikit-learn', 'Pandas', 'Python', 'Matplotlib', 'Numpy', 'TensorFlow/keras', 'Seaborn'],
       features: [
-        'Analyze historical market data to identify trends and patterns.',
-        'A machine learning model to predict stock prices with high accuracy.',
-        'Provide insights for better investment and trading decisions.',
+        "Predict stock prices using machine learning models like Linear Regression, LSTM, and Random Forest.",
+        "Visualization of historical data and predictions with interactive charts.",
+        "Data preprocessing, including handling missing values and normalization.",
+        "Support for multiple datasets and dynamic model training.",
+        "Integration of technical indicators like Moving Averages, RSI, and Bollinger Bands.",
+        "Evaluation metrics like RMSE and MAE for model performance analysis."
       ]
     },
     {
       id: '6',
       title: 'AI QRcode generator',
-      description: 'Developed a full-stack web application using with Next.js serving a Replicate API with React as the frontend.',
+      description: 'A powerful tool that utilizes AI to generate visually appealing and customizable QR codes. Built using Replicate AI, this project combines functionality and design to elevate traditional QR code applications.',
       category: 'Fullstack AI',
       liveUrl: 'https://ai-qrcode-generator.netlify.app',
       technologies: ['React', 'Next.js', 'Replicate API', 'Tailwind'],
       features: [
-        'Implemented GitHub OAuth to get data from users repositories.',
-        'It is a wild ride of creativity where users can input their prompts and watch as the generator churns out unique qr code for the input site',
+        "AI-powered QR code generation for custom designs.",
+        "Support for embedding URLs, text, or other data.",
+        "Customizable styles, colors, and patterns for QR codes.",
+        "Real-time preview of generated QR codes.",
+        "High-resolution output for printing and digital use.",
+        "Integration with Replicate AI for advanced design suggestions."
       ]
     }
   ];
