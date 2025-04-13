@@ -23,6 +23,20 @@ const Projects = () => {
     },
     {
       id: '2',
+      title: 'Quantum-Enhanced KMeans Algorithm',
+      description: 'An advanced clustering algorithm that leverages quantum computing principles to optimize the traditional KMeans approach, improving convergence speed and clustering quality, especially for high-dimensional datasets.',
+      category: 'Quantum Computing',
+      technologies: ['Python', 'Qiskit', 'NumPy', 'Matplotlib', 'Scikit-learn'],
+      features: [
+        'Integration of quantum distance estimation in clustering',
+        'Optimized initialization using quantum-inspired methods',
+        'Visualization of clustered datasets in 2D/3D',
+        'Comparison between classical and quantum KMeans performance',
+        'Support for real and synthetic datasets'
+      ]
+    },
+    {
+      id: '3',
       title: 'Deep CNN Image Classifier: Happy/Sad',
       description: 'A deep learning project that utilizes Convolutional Neural Networks (CNNs) to classify facial expressions as either happy or sad. This model analyzes facial features and provides accurate emotion detection using advanced image processing techniques.',
       category: 'Ds-ml',
@@ -37,7 +51,7 @@ const Projects = () => {
       ]
     },
     {
-      id: '3',
+      id: '4',
       title: 'AI Music Generator Using Replicate API',
       description: 'A cutting-edge project that uses the Replicate API to generate unique and customizable music tracks with AI. This tool allows users to explore the creative potential of AI in music composition, catering to diverse genres and styles.',
       category: 'Fullstack AI',
@@ -54,7 +68,7 @@ const Projects = () => {
       ]
     },
     {
-      id: '4',
+      id: '5',
       title: 'Credit Limit Optimizer',
       description: 'A machine learning-driven tool designed to optimize credit limits for customers by analyzing spending patterns, risk profiles, and financial history. It aims to balance credit risk and customer satisfaction while boosting financial institution profitability.',
       category: 'Fullstack AI',
@@ -71,7 +85,7 @@ const Projects = () => {
       ]
     },
     {
-      id: '5',
+      id: '6',
       title: 'Stock Price Predictor',
       description: 'A machine learning-based project designed to predict future stock prices using historical data and advanced algorithms. This system helps traders and investors make informed decisions by analyzing market trends and patterns.',
       category: 'Ds-ml',
@@ -86,7 +100,7 @@ const Projects = () => {
       ]
     },
     {
-      id: '6',
+      id: '7',
       title: 'AI QRcode generator',
       description: 'A powerful tool that utilizes AI to generate visually appealing and customizable QR codes. Built using Replicate AI, this project combines functionality and design to elevate traditional QR code applications.',
       category: 'Fullstack AI',
@@ -107,6 +121,7 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', name: 'All Projects' },
+    { id: 'Quant', name: 'Quantum Computing' },
     { id: 'Ds-ml', name: 'Data Science & Machine Learning' },
     { id: 'Fullstack AI', name: 'Fullstack AI' },
     { id: 'web', name: 'Web Apps' }
