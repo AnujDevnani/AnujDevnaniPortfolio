@@ -46,19 +46,34 @@ Actively seeking internships, collaborative projects, and networking opportuniti
               Professional Background
             </h2>
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-gray-800">
-                  Software Engineering Job Simulation
-                </h3>
-                <p className="text-gray-600">JPMorgan Chase • 2024 - 2024</p>
-                <ul className="list-disc list-inside mt-4 text-gray-600">
-                  <li>Interface with a stock price data feed</li>
-                  <li> Used JPMorgan Chase & Co. frameworks and tools</li>
-                  <li>Display data visually for traders</li>
-                  <li>Open source contribution</li>
-                </ul>
-              </div>
-            </div>
+  {/* SkillAgents Experience */}
+  <div className="bg-white p-6 rounded-lg shadow-md">
+    <h3 className="text-xl font-semibold text-gray-800">
+      AI Automation Intern
+    </h3>
+    <p className="text-gray-600">SkillAgents.ai • 2025 - Present</p>
+    <ul className="list-disc list-inside mt-4 text-gray-600">
+      <li>Developed agentic AI workflows using RPA to automate SaaS user provisioning</li>
+      <li>Integrated web scraping and browser automation without API dependencies</li>
+      <li>Worked with Supabase, Zustand, and Google OAuth for seamless authentication</li>
+      <li>Improved UX for AI-driven user management dashboard</li>
+    </ul>
+  </div>
+
+  {/* Mindrift Experience */}
+  <div className="bg-white p-6 rounded-lg shadow-md">
+    <h3 className="text-xl font-semibold text-gray-800">
+      AI Tutor (Freelance)
+    </h3>
+    <p className="text-gray-600">Mindrift.ai • 2025</p>
+    <ul className="list-disc list-inside mt-4 text-gray-600">
+      <li>Created AI-generated tutoring content for agent-assistant models</li>
+      <li>Designed problem-solving datasets and prompt structures for model training</li>
+      <li>Reviewed and refined content quality to align with platform guidelines</li>
+      <li>Collaborated asynchronously in a high-performance freelance environment</li>
+    </ul>
+  </div>
+</div>
 
             <h2 className="text-2xl font-bold text-gray-800 mt-12 mb-6">
               Education
